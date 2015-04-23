@@ -49,7 +49,7 @@ I'll stub out some directives and controllers for the workflow:
 - history.html
 
 
-3. Provide (pseudo) code that defines the classes and the components that use the classes. Explain the relationship between the classes and components.
+3 Provide (pseudo) code that defines the classes and the components that use the classes. Explain the relationship between the classes and components.
 
 I've added working stub JS classes for the menu package.
 
@@ -62,7 +62,7 @@ The Controller (`menu.ctrl.js`) receives an update and would be responsible for 
 Using a Service (`menu.svc.js`) ensures loose coupling.
 
 
-4. Employ two software design patterns and explain how you would use them in your components.
+4 Employ two software design patterns and explain how you would use them in your components.
 
 Some "classic" GOF design patterns employed are the _Facade_ in the `menu.svc.js`, in that in provides an interface to the menu api.
 
@@ -71,12 +71,12 @@ Also, the `menu.svc.js` is a Singleton, as _".. one object is needed to coordina
 Angular Directives are in their nature Composites as they are composed of the JS code and their own view (the template).
 
 
-5. Explain how you configure your components.
+5 Explain how you configure your components.
 
 I configure my components to be modular - hence the use of the `cart`, `login` and `menu` folders rather than grouped as controllers and directives.
 
 
-6. What features would your design need to scale?
+6 What features would your design need to scale?
 
 The modularity would help with ths scaling of the code-base.
 
@@ -102,18 +102,18 @@ Should be more like the following:
 
 | **State** | **View**   | **Transition**  |
 | :-------: | :-------:  | :------------:  |
-| **start** | **Login**  | -> loggedin     |
-| **add** | **Login**   | -> start         |
-| **loggedin** | **menu**  | -> cart-ready |
-| **cart** | **cart**  | -> ordering       |
-| **ordering** | **cart**  | -> purchasing |
-| **purchasing** | **cart** | -> cart-ready|
+| start     | Login   | -> loggedin        |
+| add       | Login    | -> start          |
+| loggedin  | menu    | -> cart-ready      |
+| cart      | cart    | -> ordering        |
+| ordering  | cart   | -> purchasing       |
+| purchasing| cart  | -> cart-ready        |
 
 It would be nice to get some designs made with [Ionic Creator](http://ionicframework.com/creator/)
 
 
 ## Database
-1. Choose a database to back your class hierarchy.
+1 Choose a database to back your class hierarchy.
 
 Possible database solutions:
 
@@ -122,7 +122,7 @@ Possible database solutions:
 - Firebase
 - PlayFramework
 
-2. Explain the pros and cons of operating the database solution you chose.
+2 Explain the pros and cons of operating the database solution you chose.
 
 I would have to do some further investigations regarding this issue, I've used Firebase before., but I'd ratehr use something more suitable to using a RESTful approach.
 
