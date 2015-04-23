@@ -89,19 +89,19 @@ TODO
 3. Explain why the tests are necessary.
 
 ## User Interface Design
-1. Choose a language or toolset to write a UI to expose the business logic you created in your class hierarchy (Bootstrap + Javascript preferably).
+1 Choose a language or toolset to write a UI to expose the business logic you created in your class hierarchy (Bootstrap + Javascript preferably).
 
 It would be nice to use [material](http://ionicmaterial.com) to create some funky looking app.
 
 
-2. Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
+2 Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
 
 The app is currently running as a tab app, this isn't the correct UI workflow. As each view should be viewed in turn, and the user should be able to jump from login to the cart.
 
 Should be more like the following:
 
 | **State** | **View**   | **Transition**  |
-| :-------: | :-------:  | :------------:  |
+| :------- | :-------  | :------------  |
 | start     | Login   | -> loggedin        |
 | add       | Login    | -> start          |
 | loggedin  | menu    | -> cart-ready      |
