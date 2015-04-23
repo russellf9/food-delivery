@@ -6,10 +6,14 @@
         .controller('Menu', MenuCtrl);
 
 
-    //
     function MenuCtrl($scope, $http) {
 
         console.log('Menu!');
+
+        // the notification that the menu data has been got
+        $scope.onReceived = function() {
+            console.log('onReceived!');
+        }
     }
 
 })();

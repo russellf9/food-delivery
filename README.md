@@ -26,19 +26,19 @@
 
 I'll stub out some directives and controllers for the workflow:
 
-*login*
+**login**
 - login.ctrl.js
 - add.dir.js
 - add.html
 - login.dir.js
 - login.html
 
-*menu*
+**menu**
 - menu.ctrl.js
 - menu.dir.js
 - menu.html
 
-*cart*
+**cart**
 - cart.ctrl.js
 - order.dir.js
 - order.html
@@ -49,6 +49,9 @@ I'll stub out some directives and controllers for the workflow:
 
 
 3. Provide (pseudo) code that defines the classes and the components that use the classes.  Explain the relationship between the classes and components.
+
+
+
 
 4. Employ two software design patterns and explain how you would use them in your components.
 5. Explain how you configure your components.

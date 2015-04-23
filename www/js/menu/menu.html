@@ -1,7 +1,7 @@
-<div class="Menu">
-    <input type="text" placeholder="Name" ng-model="name"/>
-    <select ng-options="product.name for product in products" ng-model="product" placeholder="Product">
-        <option value="">Choose Product</option>
-    </select>
-
-</div>
+<ion-content>
+    <ion-list>
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in items" type="item-text-wrap">
+            {{item}}
+        </ion-item>
+    </ion-list>
+</ion-content>
