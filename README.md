@@ -100,14 +100,14 @@ The app is currently running as a tab app, this isn't the correct UI workflow. A
 
 Should be more like the following:
 
-| **State** | **View**   | **Transition**  |
+| **State** | **View** | **Transition** |
 | :------- | :-------  | :------------  |
-| start     | Login   | -> loggedin        |
-| add       | Login    | -> start          |
-| loggedin  | menu    | -> cart-ready      |
-| cart      | cart    | -> ordering        |
-| ordering  | cart   | -> purchasing       |
-| purchasing| cart  | -> cart-ready        |
+| start     | Login    | -> loggedin    |
+| add       | Login    | -> start       |
+| loggedin  | menu     | -> cart        |
+| cart      | cart     | -> ordering    |
+| ordering  | cart     | -> purchasing  |
+| purchasing| cart     | -> cart        |
 
 It would be nice to get some designs made with [Ionic Creator](http://ionicframework.com/creator/)
 
