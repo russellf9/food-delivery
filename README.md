@@ -2,7 +2,26 @@
 
 ## Class Hierarchy Design
 1. Design a simple class hierarchy, in the programming language of your choice (PHP preferably), that models the act of food delivery.
+
+  In terms of an agnostic REST api (used by Node for instance, which would be relatively easy to set up on a local machine )
+
+  ```
+  /api/customer/create
+  /api/customer/login
+
+  /api/customer/order
+  /api/customer/purchase
+
+  /api/customer/history
+
+  /api/menu
+  ```
+
+
+
 2. You should have at least three classes and a workflow for a client to order food.
+
+
 3. Provide (pseudo) code that defines the classes and the components that use the classes.  Explain the relationship between the classes and components.
 4. Employ two software design patterns and explain how you would use them in your components.
 5. Explain how you configure your components.
