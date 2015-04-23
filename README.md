@@ -7,7 +7,7 @@
 
   ```
   # customer creation and retrieval
-  /api/customer/create
+  /api/customer/add
   /api/customer/login
 
   # retrieval of all the possible food items
@@ -22,12 +22,33 @@
 
   ```
 
-
-
 2. You should have at least three classes and a workflow for a client to order food.
+
+I'll stub out some directives and controllers for the workflow:
+
+*login*
+- login.ctrl
+- add.dir.js
+- add.html
+- login.dir.js
+- login.html
+
+*menu*
+- menu.ctrl.js
+- menu.dir.js
+
+*customer*
+- customer.ctrl.js
+- order.dir.js
+- order.html
+- purchase.dir.js
+- purchase.html
+- history.dir.js
+- history.html
 
 
 3. Provide (pseudo) code that defines the classes and the components that use the classes.  Explain the relationship between the classes and components.
+
 4. Employ two software design patterns and explain how you would use them in your components.
 5. Explain how you configure your components.
 6. What features would your design need to scale?
