@@ -6,15 +6,20 @@
   In terms of an agnostic REST api (used by Node for instance, which would be relatively easy to set up on a local machine )
 
   ```
+  # customer creation and retrieval
   /api/customer/create
   /api/customer/login
 
+  # retrieval of all the possible food items
+  /api/menu
+
+  # workflow to choose and buy
   /api/customer/order
   /api/customer/purchase
 
+  # check details of (the last) and all orders
   /api/customer/history
 
-  /api/menu
   ```
 
 
