@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('food-delivery', ['ionic', 'starter.controllers', 'starter.services', 'food-delivery.customer', 'food-delivery.menu', 'food-delivery.cart'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -38,22 +38,22 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // Each tab has its own nav history stack:
 
-  .state('tab.dash', {
-    url: '/dash',
+  .state('tab.login', {
+    url: '/login',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+      'tab-login': {
+        templateUrl: 'templates/tab-login.html',
+        controller: 'Login'
       }
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
+  .state('tab.menu', {
+      url: '/menu',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+        'tab-menu': {
+          templateUrl: 'templates/tab-menu.html',
+          controller: 'Menu'
         }
       }
     })
@@ -67,17 +67,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.cart', {
+    url: '/cart',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-cart': {
+        templateUrl: 'templates/tab-cart.html',
+        controller: 'Cart'
       }
     }
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/login');
 
 });

@@ -14,8 +14,8 @@
   /api/menu
 
   # workflow to choose and buy
-  /api/customer/order
-  /api/customer/purchase
+  /api/cart/order
+  /api/cart/purchase
 
   # check details of (the last) and all orders
   /api/customer/history
@@ -27,7 +27,7 @@
 I'll stub out some directives and controllers for the workflow:
 
 *login*
-- login.ctrl
+- login.ctrl.js
 - add.dir.js
 - add.html
 - login.dir.js
@@ -36,9 +36,10 @@ I'll stub out some directives and controllers for the workflow:
 *menu*
 - menu.ctrl.js
 - menu.dir.js
+- menu.html
 
-*customer*
-- customer.ctrl.js
+*cart*
+- cart.ctrl.js
 - order.dir.js
 - order.html
 - purchase.dir.js
