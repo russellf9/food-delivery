@@ -20,3 +20,17 @@
 ## Database
 1. Choose a database to back your class hierarchy.
 2. Explain the pros and cons of operating the database solution you chose.
+
+
+# Ionic
+
+I used the default "tab" starter app, to build and test:
+
+```
+$ ionic platform add ios
+
+$ ionic build ios
+
+$ ionic emulate ios
+
+```
