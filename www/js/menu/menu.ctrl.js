@@ -6,13 +6,17 @@
         .controller('Menu', MenuCtrl);
 
 
-    function MenuCtrl($scope, $http) {
+    function MenuCtrl($scope, $state, $http) {
 
         console.log('Menu!');
 
         // the notification that the menu data has been got
         $scope.onReceived = function() {
             console.log('onReceived!');
+        };
+
+        $scope.goCart = function() {
+            $state.go('cart');
         }
     }
 
