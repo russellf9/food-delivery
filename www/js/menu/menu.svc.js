@@ -9,7 +9,7 @@
     angular.module('food-delivery.menu').service('MenuService',  ['$q', function($q) {
 
         // add mock data for now
-        var _menuItems = ['gazpacho', 'Best roast leg of lamb', 'Chocolate Pudding'];
+        var _menuItems = ['gazpacho', 'Best roast leg of lamb', 'risotto', 'Chocolate Pudding'];
 
         return {
 
