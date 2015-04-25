@@ -2,6 +2,8 @@
 
 .square {
 
+    /*position: relative;*/
+
     /*probably best to use media queries*/
     width: 225px;
     height: 225px;
@@ -13,6 +15,24 @@
     margin: auto;
 
 }
+
+.item-title {
+    z-index: 1;
+    text-align: center;
+    background-color: #CBCBCD;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.image {
+    z-index: 2;
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    border: solid 1px grey;
+    cursor:pointer;
+}
+
 
 .gallery {
     position: absolute;
