@@ -1,7 +1,8 @@
 <div class="gallery flex-display">
 
     <div ng-repeat="item in items" class="square">
-        {{item}}
+        <p class="item-title">{{item.title}}</p>
+        <div class="image" ng-click="selectItem(item.id)"></div>
     </div>
-    
+
 </div>

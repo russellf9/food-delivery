@@ -15,9 +15,17 @@
             console.log('onReceived!');
         };
 
+
+        // the notification that a user has selected an item
+        $scope.onSelectItem = function(id) {
+            console.log('User has selected item: ',id);
+        };
+
+        // navigate to the cart
         $scope.goCart = function() {
             $state.go('cart');
-        }
+        };
+
     }
 
 })();
