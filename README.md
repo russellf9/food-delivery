@@ -93,11 +93,7 @@ TODO
 
 It would be nice to use [material](http://ionicmaterial.com) to create some funky looking app.
 
-The Ionic 
-
 I've done some experiments using the following design tools:
-
-
 
 - [Sketch](http://www.bohemiancoding.com/sketch/) - using an Ionic template
 
@@ -105,7 +101,7 @@ I've done some experiments using the following design tools:
 
 - [Adobe Comp CC](https://itunes.apple.com/us/app/adobe-comp-cc/id970725481?mt=8) for the iPad
 
-Very quick sketches
+**Very quick sketches**
 
 <div>
  <li>Login using PhotoShop
@@ -113,11 +109,15 @@ Very quick sketches
   </li>
 </div>
 
+
+
 <div>
   <li>Menu using Sketch
      <img src="./design/menu-1.png" alt="Login" width="200">
    </li>
 </div>
+
+
 
 <div>
   <li>Checkout designed in Adobe Comp CC, then touched up in PhotoShop.
