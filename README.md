@@ -97,6 +97,8 @@ The Ionic
 
 I've done some experiments using the following design tools:
 
+
+
 - [Sketch](http://www.bohemiancoding.com/sketch/) - using an Ionic template
 
 - PhotoShop - using an Ionic PSD template
@@ -105,11 +107,11 @@ I've done some experiments using the following design tools:
 
 Very quick sketches
 
-- []()
+- [Login](/design/login.png?raw=true "Login") - using PhotoShop
 
-- []()
+- [Menu](/design/menu-png?raw=true "Menu") - using Sketch
 
-- []()
+- [Checkout](./design/checkout.png?raw=true "Checkout") - originally designed in Adobe Comp CC, then touched up in PhotoShop.
 
 
 
