@@ -109,15 +109,15 @@ I've done some experiments using the following design tools:
   </li>
 </div>
 
-
+<br>
 
 <div>
   <li>Menu using Sketch
-     <img src="./design/menu-1.png" alt="Login" width="200">
+     <img src="./design/menu-1.png" alt="Login" width="210">
    </li>
 </div>
 
-
+<br>
 
 <div>
   <li>Checkout designed in Adobe Comp CC, then touched up in PhotoShop.
@@ -125,7 +125,8 @@ I've done some experiments using the following design tools:
    </li>
 </div>
     
-
+<br>
+<br>
 
 2 Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
 
