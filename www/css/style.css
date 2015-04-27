@@ -1,18 +1,24 @@
 /* Project CSS  */
 
+html,body {
+    height:100%;
+}
+
 .square {
 
     /*position: relative;*/
 
     /*probably best to use media queries*/
-    width: 225px;
-    height: 225px;
+    width: 175px;
+    height: 175px;
 
     border: solid 1px grey;
 
     background-color: #DEDEDE;
 
-    margin: auto;
+    /*margin: auto;*/
+
+    margin: 5px;
 
 }
 
@@ -26,8 +32,8 @@
 
 .image {
     z-index: 2;
-    width: 175px;
-    height: 175px;
+    width: 100px;
+    height: 100px;
     margin: auto;
     border: solid 1px grey;
     cursor:pointer;
@@ -35,17 +41,58 @@
 
 
 .gallery {
-    position: absolute;
+    /**/
     /*probably best to use media queries*/
-    width: 90vw;
-    height: 90vh;
-    margin-left: 5vw;
-    margin-right: auto;
+    /*width: 90vw;*/
+    /*height: 90vh;*/
+    /*margin-left: 5vw;*/
+    /*margin-right: auto;*/
     border: solid 1px darkgray;
+    width: 100%;
+
 }
+
+
 
 .flex-display {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
+
+.red {
+    background-color: lightblue;
+    border: solid 2px darkred;
+}
+
+.color-border {
+    border: solid 2px darkgray;
+}
+
+/*see: http://forum.ionicframework.com/t/fill-content-container/605/10*/
+
+.super-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.scroll-content > .scroll {
+    height: 100%;
+}
+.scroll-content > .scroll > iframe {
+    min-height: 100%;
+}
+
+.row-content {
+    height:80%;
+}
+
+.row-control {
+    height: 20%;
+}
+
+/*Use SASS to modify - $calm:*/

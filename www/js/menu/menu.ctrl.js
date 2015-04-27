@@ -1,4 +1,4 @@
-// this will be the Angular Controller for the Menu Tab
+// this will be the Angular Controller for the Menu View
 
 (function () {
 
@@ -23,6 +23,7 @@
 
         // navigate to the cart
         $scope.goCart = function() {
+            console.log('go cart!');
             $state.go('cart');
         };
 

@@ -7,7 +7,8 @@
             restrict: 'E',
             scope: {
                 onReceived: '&',
-                onSelect: '&'
+                onSelect: '&',
+                onGo: '&'
             },
             templateUrl: 'js/menu/menu.html',
             link: function(scope) {
@@ -21,7 +22,12 @@
                 // an item has been selected
                 scope.selectItem = function(id) {
                     scope.onSelect()(id);
-                }
+                };
+
+                // the user has selected to go to the shopping cart
+                scope.goCart = function() {
+                    scope.onGo()();
+                };
             }
         };
     }
