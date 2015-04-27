@@ -107,7 +107,7 @@ I've done some experiments using the following design tools:
 
 Very quick sketches
 
-- ![Login](/design/login.png?raw=true =190x399 "Login") - using PhotoShop
+- ![Login](/design/login.png =190x399 "Login") - using PhotoShop
 
 - ![Menu](/design/menu-1.png?raw=true "Menu") - using Sketch
 
