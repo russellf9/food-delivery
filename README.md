@@ -85,6 +85,8 @@ The modularity would help with ths scaling of the code-base.
 1. Write unit tests for the core components in your hierarchy.
 TODO
 
+I've added a Jasmine set up and am testing the first controller.
+
 2. Provide (pseudo) code that defines the tests for the components.
 3. Explain why the tests are necessary.
 
