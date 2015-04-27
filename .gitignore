@@ -6,3 +6,4 @@ platforms/
 plugins/
 .idea
 hooks
+.DS_Store

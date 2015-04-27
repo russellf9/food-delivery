@@ -93,6 +93,25 @@ TODO
 
 It would be nice to use [material](http://ionicmaterial.com) to create some funky looking app.
 
+The Ionic 
+
+I've done some experiments using the following design tools:
+
+- [Sketch](http://www.bohemiancoding.com/sketch/) - using an Ionic template
+
+- PhotoShop - using an Ionic PSD template
+
+- [Adobe Comp CC](https://itunes.apple.com/us/app/adobe-comp-cc/id970725481?mt=8) for the iPad
+
+Very quick sketches
+
+- []()
+
+- []()
+
+- []()
+
+
 
 2 Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
 
