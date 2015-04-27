@@ -107,14 +107,20 @@ I've done some experiments using the following design tools:
 
 Very quick sketches
 
-- Login using PhotoShop
- <img src="./design/login.png" alt="Login" width="190">
+<div>
+ <li>Login using PhotoShop
+    <img src="./design/login.png" alt="Login" width="190">
+  </li>
+</div>
+
+
     
- - Menu using Sketch
+    
+- Menu using Sketch
  <img src="./design/menu-1.png" alt="Login" width="190">
 
 - Checkout designed in Adobe Comp CC, then touched up in PhotoShop.
- <img src="./design/checkout.pngg" alt="Login" width="190">
+ <img src="./design/checkout.png" alt="Login" width="190">
 
 
 2 Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
