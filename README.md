@@ -107,7 +107,7 @@ I've done some experiments using the following design tools:
 
 Very quick sketches
 
-- ![Login](./design/login.png =190 "Login") - using PhotoShop
+- <img src="./design/login.png" alt="Login" width="190">  - using PhotoShop
 
 - ![Menu](/design/menu-1.png?raw=true "Menu") - using Sketch
 
