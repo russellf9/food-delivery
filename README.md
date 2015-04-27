@@ -113,14 +113,18 @@ Very quick sketches
   </li>
 </div>
 
+<div>
+  <li>Menu using Sketch
+     <img src="./design/menu-1.png" alt="Login" width="200">
+   </li>
+</div>
 
+<div>
+  <li>Checkout designed in Adobe Comp CC, then touched up in PhotoShop.
+     <img src="./design/checkout.png" alt="Login" width="200">
+   </li>
+</div>
     
-    
-- Menu using Sketch
- <img src="./design/menu-1.png" alt="Login" width="190">
-
-- Checkout designed in Adobe Comp CC, then touched up in PhotoShop.
- <img src="./design/checkout.png" alt="Login" width="190">
 
 
 2 Provide a "mock up" of the UI workflow.  This does not have to be exact; the goal is to identify how you the UI would "use" your classes.  You can provide a drawing, diagram, or (pseudo) code that shows your UI design.
