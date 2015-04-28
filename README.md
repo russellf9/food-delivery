@@ -178,7 +178,7 @@ I like the description of [localForage](https://github.com/mozilla/localForage) 
 
 I would have to do some further investigations regarding this issue, I've used Firebase before, which also has the advantage of providing an authentication service.
 
-Also, there are considerable advantages to using a solution that uses [Mobile Backend as a Service (MBaaS](http://en.wikipedia.org/wiki/Mobile_Backend_as_a_service) rather than building the back-end itself.
+Also, there are considerable advantages to using a solution that uses [Mobile Backend as a Service (MBaaS)](http://en.wikipedia.org/wiki/Mobile_Backend_as_a_service) rather than building the back-end itself.
 
 
 
