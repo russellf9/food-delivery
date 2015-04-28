@@ -90,6 +90,11 @@ I've added a Jasmine set up and am testing the first controller.
 2. Provide (pseudo) code that defines the tests for the components.
 3. Explain why the tests are necessary.
 
+- Tests can evaluate a program's correctness after a change
+
+- A well written test can help other developers understand the code
+
+
 ## User Interface Design
 1 Choose a language or toolset to write a UI to expose the business logic you created in your class hierarchy (Bootstrap + Javascript preferably).
 
