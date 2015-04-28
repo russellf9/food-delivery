@@ -12,18 +12,26 @@ describe("Login Controller Unit Tests", function() {
 
     beforeEach(inject(function($rootScope, $state, $controller) {
         scope = $rootScope.$new();
+        state = $state;
         ctrl = $controller('Login', {$scope: scope, $state: $state});
+        spyOn(state, 'go');
+
     }));
 
     it('should have a controller', function () {
         expect(ctrl).not.toBe(null);
     });
 
+    describe('The goMenu function', function() {
 
-    it('should have a function to go to the goMenu', function () {
-        expect(scope.goMenu).not.toBe(null);
+        it('should have a `goMenu` function', function () {
+            expect(scope.goMenu).not.toBe(null);
+        });
+
+        it('should change state', function () {
+            scope.goMenu();
+            expect(state.go).toHaveBeenCalledWith('menu');
+        });
     });
-
-
-
 });
+
