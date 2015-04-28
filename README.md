@@ -98,7 +98,11 @@ I've added a Jasmine set up and am testing the first controller.
 ## User Interface Design
 1 Choose a language or toolset to write a UI to expose the business logic you created in your class hierarchy (Bootstrap + Javascript preferably).
 
-It would be nice to use [material](http://ionicmaterial.com) to create some funky looking app.
+- It would be nice to use [material](http://ionicmaterial.com) to create some funky looking app.
+
+- Ionic itself provides a `UI toolset`
+
+- [Ratchet](http://goratchet.com) is another option, _"Build mobile apps with simple HTML‚ CSS‚ and JS components"_
 
 I've done some experiments using the following design tools:
 
@@ -163,12 +167,18 @@ Possible database solutions:
 - Firebase
 - PlayFramework
 
-Notes from a Ionic meetup: [Ionic UK April Meetup Review](http://developer.mobilecaddy.net/2015/04/ionic-uk-april-meetup-review/)
+Notes from a Ionic Meetup: [Ionic UK April Meetup Review](http://developer.mobilecaddy.net/2015/04/ionic-uk-april-meetup-review/)
+
+Links to an interesting page from [Ryan Hanna](https://twitter.com/heryandotus/) - [ionic-offline-storage](https://github.com/gylippus/ionic-offline-storage)
+
+I like the description of [localForage](https://github.com/mozilla/localForage) which would provide fall-backs when the user is not online.
 
 
 2 Explain the pros and cons of operating the database solution you chose.
 
 I would have to do some further investigations regarding this issue, I've used Firebase before, which also has the advantage of providing an authentication service.
+
+Also, there are considerable advantages to using a solution that uses [Mobile Backend as a Service (MBaaS](http://en.wikipedia.org/wiki/Mobile_Backend_as_a_service) rather than building the back-end itself.
 
 
 
