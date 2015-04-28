@@ -163,9 +163,14 @@ Possible database solutions:
 - Firebase
 - PlayFramework
 
+Notes from a Ionic meetup: [Ionic UK April Meetup Review](http://developer.mobilecaddy.net/2015/04/ionic-uk-april-meetup-review/)
+
+
 2 Explain the pros and cons of operating the database solution you chose.
 
-I would have to do some further investigations regarding this issue, I've used Firebase before., but I'd ratehr use something more suitable to using a RESTful approach.
+I would have to do some further investigations regarding this issue, I've used Firebase before, which also has the advantage of providing an authentication service.
+
+
 
 # Ionic
 
@@ -179,3 +184,15 @@ $ ionic build ios
 $ ionic emulate ios
 
 ```
+
+# Gulp
+
+I've added a Gulpfile which currently runs:
+
+```
+# launch the Jasmine Unit Tests
+$ gulp test
+```
+
+Ideally I would make the gulp tasks modular as in the [Magic Squares Mobile](https://github.com/russellf9/magic-squares-mobile) project.
+
