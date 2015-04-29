@@ -18,8 +18,10 @@ module.exports = function(config) {
         'www/lib/angular/angular.js',
         'www/lib/angular-ui-router/release/angular-ui-router.js',
         'www/lib/angular-mocks/angular-mocks.js',
-        'www/js/menu/menu.ctrl.js',
-        'www/js/login/login.ctrl.js', 'www/js/**/*Spec.js'
+        'www/js/**/menu.ctrl.js',
+        'www/js/**/menu.svc.js',
+        'www/js/login/login.ctrl.js',
+        'www/js/**/*Spec.js'
     ],
 
 
