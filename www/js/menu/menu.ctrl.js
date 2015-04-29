@@ -6,7 +6,7 @@
         .controller('Menu', MenuCtrl);
 
 
-    function MenuCtrl($scope, $state, $http) {
+    function MenuCtrl($scope, $state) {
 
         console.log('Menu!');
 
