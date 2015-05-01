@@ -1,0 +1,17 @@
+<div class="super-fill">
+    <div class="row row-content row-center color-border">
+        <ion-scroll zooming="true" direction="y" style="width: 100%; height: 100%">
+            <div style="width: 100%; height: 1000px">
+                <div ng-repeat="item in items" class="square">
+                    <p class="item-title">{{item.title}}</p>
+                   <div class="image" ng-click="selectItem(item.id)"></div>
+                </div>
+            </div>
+        </ion-scroll>
+    </div>
+    <div class="row row-control row-center">
+        <div class="col col-center text-right">
+          <button class="button button-calm" ng-click="goCart()">PURCHASE</button>
+        </div>
+    </div>
+</div>
