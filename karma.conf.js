@@ -5,7 +5,7 @@ module.exports = function(config) {
     config.set({
 
         // base path that will be used to resolve all patterns (eg. files, exclude)
-        basePath: '',
+        basePath: 'www',
 
 
         // frameworks to use
@@ -15,50 +15,43 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'www/lib/angular/angular.js',
-            'www/lib/ionic/js/ionic.js',
-            'www/lib/angular-animate/angular-animate.js',
-            'www/lib/angular-sanitize/angular-sanitize.js',
-            'www/lib/ionic/js/ionic-angular.js',
-            'www/lib/angular-ui-router/release/angular-ui-router.js',
-            'www/lib/angular-mocks/angular-mocks.js',
-            'www/js/**/app.js',
-            'www/js/**/controllers.js',
-            'www/js/**/services.js',
-            'www/js/**/menu.ctrl.js',
-            'www/js/**/menu.svc.js',
-            'www/js/**/menu.dir.js',
-            'www/js/login/login.ctrl.js',
-            'www/js/cart/*.js',
-            'www/js/test/*.js',
-            'www/js/**/*Spec.js',
-            'www/templates/**/*.html'
-
-            //,
+            'lib/angular/angular.js',
+            'lib/ionic/js/ionic.js',
+            'lib/angular-animate/angular-animate.js',
+            'lib/angular-sanitize/angular-sanitize.js',
+            'lib/ionic/js/ionic-angular.js',
+            'lib/angular-ui-router/release/angular-ui-router.js',
+            'lib/angular-mocks/angular-mocks.js',
+            'js/**/*.js',
+            'js/**/*Spec.js',
+            'templates/**/*.html',
             // if you wanna load template files in nested directories, you must use this
-            //'www/js/**/*.html'
-            //'www/js/menu/menu.html',
-            //'www/tpl/**.html'
-
+            'js/**/*.html'
         ],
 
 
         // list of files to exclude
         exclude: [],
 
+        plugins: [
+            'karma-chrome-launcher',
+            'karma-jasmine',
+            'karma-ng-html2js-preprocessor'
+        ],
+
 
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            "www/**/*.html": ["ng-html2js"]
+            "**/*.html": ["ng-html2js"]
         },
 
         ngHtml2JsPreprocessor: {
             // If your build process changes the path to your templates,
             // use stripPrefix and prependPrefix to adjust it.
-            // TODO will have to do if we use a build script later and so alter the path of the templates
-            //stripPrefix: "www/js/menu/",
-            //prependPrefix: "web/path/to/templates/",
+            // TODO will have to do if we use a build script later and so alter the path of the templates?
+            //stripPrefix: "",
+            // prependPrefix: "",
 
             // the name of the Angular module to create
             moduleName: "templates"

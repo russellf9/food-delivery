@@ -11,6 +11,7 @@
                 onGo: '&'
             },
             templateUrl: 'js/menu/menu.html',
+
             link: function(scope) {
                 // the function get the set of all food to order
                 MenuService.getMenuItems().then(function(res) {

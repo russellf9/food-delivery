@@ -7,7 +7,8 @@
         return {
             restrict: 'E',
             replace: false,
-            template: '<div>Hello {{name}}</div>'
+            //template: '<div>Hello {{name}}</div>'
+            templateUrl: 'js/test/test.html'
         };
     }
 })();

@@ -6,6 +6,8 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
+var karma = require('gulp-karma');
+var jasmineBrowser = require('gulp-jasmine-browser');
 
 var paths = {
   sass: ['./scss/**/*.scss']
@@ -31,14 +33,18 @@ gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
 });
 
-// test
-var karma = require('gulp-karma');
+gulp.task('jasmine', function() {
+    return gulp.src(['www/**/*.js'])
+        .pipe(jasmineBrowser.specRunner())
+        .pipe(jasmineBrowser.server());
+});
 
 gulp.task('test', function() {
     // Be sure to return the stream
     // NOTE: Using the fake './foobar' so as to run the files
     // listed in karma.conf.js INSTEAD of what was passed to
     // gulp.src !
+
     return gulp.src('./foobar')
         .pipe(karma({
             configFile: 'karma.conf.js',

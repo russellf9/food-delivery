@@ -18,7 +18,7 @@ describe("Menu Controller Unit Tests", function() {
 
     }));
 
-    it('should have a controller', function () {
+    xit('should have a controller', function () {
         expect(ctrl).not.toBe(null);
     });
 
@@ -32,7 +32,7 @@ describe("Menu Controller Unit Tests", function() {
         expect(scope.onSelectItem).toEqual(jasmine.any(Function));
     });
 
-    describe('The goCart function', function() {
+    xdescribe('The goCart function', function() {
         it('should have a `goCart` function', function () {
             expect(scope.goCart).not.toBe(null);
         });
