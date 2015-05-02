@@ -15,13 +15,14 @@
             link: function(scope) {
                 // the function get the set of all food to order
                 MenuService.getMenuItems().then(function(res) {
-                    console.log('results: ',res);
+                    //console.log('menu::results: ',res);
                     scope.onReceived()();
                     scope.items = res;
                 });
 
                 // an item has been selected
                 scope.selectItem = function(id) {
+                    //console.log('menu::selectItem: ',id);
                     scope.onSelect()(id);
                 };
 
